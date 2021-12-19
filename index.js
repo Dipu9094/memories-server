@@ -16,7 +16,7 @@ app.use('/posts', postRoutes);
 
 const CONNECTION_URL = "mongodb+srv://memories:nishidip9094@cluster0.fs9pd.mongodb.net/myFirstDatabase?retryWrites=true&w=majority";
 
-const PORT = process.env.PORT|| 5000;
+const PORT = process.env.PORT|| 4000;
 
 
 app.get("/", (req, res) => {
